@@ -17,7 +17,7 @@ func main() {
 	e.GET("/:id", getResult)
 	e.POST("/:id", postResult)
 
-	e.Logger.Fatal(e.Start(":1323"))
+	e.Logger.Fatal(e.Start(":13231"))
 }
 
 func getResult(c echo.Context) error {
